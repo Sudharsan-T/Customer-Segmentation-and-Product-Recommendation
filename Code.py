@@ -15,7 +15,7 @@ from sklearn.metrics import silhouette_score, calinski_harabasz_score, davies_bo
 from sklearn.cluster import KMeans
 from tabulate import tabulate
 from collections import Counter
-
+#starting
 %matplotlib inline
 
 df = pd.read_csv('/content/data.csv', encoding="ISO-8859-1")
